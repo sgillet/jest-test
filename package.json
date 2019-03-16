@@ -1,0 +1,24 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "jest tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "author": "Sebastien Gillet",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "nock": "^10.0.6"
+  },
+  "dependencies": {
+    "async-request": "^1.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
